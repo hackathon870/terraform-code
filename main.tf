@@ -3,7 +3,7 @@ locals {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "hackaton-rg"
+  name     = "zurimoni-rg"
   location = local.location
 }
 
